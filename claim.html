@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Car Insurance Company - Claiming Insurance</title>
+		<link rel="stylesheet" href="./main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="heading">
+			<div class="cname">Car&nbsp;Insurance&nbsp;Company</div>
+			<div class="vvlink">
+				<a href="./profile.php" class="link">Profile</a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="title">Accident Details</div>
+			<form class="form" action="./claim.php" method="POST">
+				<div class="input_field">
+					<label>Report&nbsp;No.:</label>
+					<input
+						type="text"
+						class="input"
+						name="report_number"
+						maxlength="30"
+						placeholder="Report Number"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Location:</label>
+					<input
+						type="text"
+						class="input"
+						name="location"
+						maxlength="25"
+						placeholder="Location"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Date:</label>
+					<input
+						type="text"
+						class="input"
+						name="date"
+						maxlength="8"
+						placeholder="dd-mm-yy"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<input type="submit" value="Submit" class="button" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

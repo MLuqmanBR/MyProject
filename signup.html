@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Car Insurance Company - Signup</title>
+		<link rel="stylesheet" href="./main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="heading">
+			<div class="cname">Car&nbsp;Insurance&nbsp;Company</div>
+			<div class="vvlink">
+				<a href="./index.html" class="link">Signin</a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<form class="form" action="./signup.php" method="POST">
+				<div class="title">Personal Details</div>
+				<div class="input_field">
+					<label>Full&nbsp;Name:</label>
+					<input
+						type="text"
+						class="input"
+						name="name"
+						maxlength="30"
+						placeholder="Full Name"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>License:</label>
+					<input
+						type="text"
+						class="input"
+						name="license"
+						maxlength="25"
+						placeholder="Licence ID"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Password:</label>
+					<input
+						type="password"
+						class="input"
+						name="password"
+						maxlength="20"
+						placeholder="Password"
+						required
+					/>
+				</div>
+				<div class="title">Car Details</div>
+				<div class="input_field">
+					<label>Regd.&nbsp;No.:</label>
+					<input
+						type="text"
+						class="input"
+						name="regd_no"
+						maxlength="10"
+						placeholder="Registration Number"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Model:</label>
+					<input
+						type="text"
+						class="input"
+						name="model_id"
+						maxlength="25"
+						placeholder="Model"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Year:</label>
+					<input
+						type="text"
+						class="input"
+						name="year"
+						maxlength="4"
+						placeholder="Year of Registration"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<input type="submit" value="Signup" class="button" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

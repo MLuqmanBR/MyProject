@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Car Insurance Company</title>
+		<link rel="stylesheet" href="./main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<div class="heading">
+			<div class="cname">Car&nbsp;Insurance&nbsp;Company</div>
+			<div class="vvlink">
+				<a href="./onlysignup.html" class="link">Signup</a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="title">Signin</div>
+			<form class="form" action="./validation.php" method="POST">
+				<div class="input_field">
+					<label>License:</label>
+					<input
+						type="text"
+						class="input"
+						name="license"
+						maxlength="25"
+						placeholder="License ID"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<label>Password:</label>
+					<input
+						type="password"
+						class="input"
+						name="password"
+						maxlength="20"
+						placeholder="Password"
+						required
+					/>
+				</div>
+				<div class="input_field">
+					<input type="submit" value="Signin" class="button" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

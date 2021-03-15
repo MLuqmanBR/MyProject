@@ -1,0 +1,181 @@
+.wrapper {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: grey;
+	margin: auto;
+}
+
+.heading {
+	background: lightblue;
+	max-height: 800px;
+	min-height: 75px;
+	width: 100%;
+	color: black;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.cname,
+.vvlink {
+	display: flex;
+}
+
+.cname {
+	margin: 15px;
+	font-size: 80px;
+	font-weight: 700;
+	flex: 3;
+	cursor: default;
+}
+
+.vvlink {
+	flex: 1;
+	margin: 15px;
+	text-align: right;
+	font-size: 35px;
+	font-weight: 100;
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	padding: 0 10px 0 10px;
+	margin: 10px;
+}
+.wrapper {
+	max-width: 1000px;
+	width: 90%;
+	background: white;
+	border-radius: 10px;
+	margin: 60px auto;
+	padding: 30px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.wrapper .title {
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: black;
+	text-align: left;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.wrapper .details {
+	font-size: 30px;
+	text-align: left;
+}
+
+.wrapper .fail_link {
+	font-size: 18px;
+}
+
+.wrapper .flink {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+@media (max-width: 680px) {
+	.wrapper {
+		width: 90%;
+		/*margin: 15px auto;*/
+		padding: 10px;
+	}
+	.heading {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.cname {
+		margin: auto;
+		font-size: 35px;
+		font-weight: 200;
+		flex: 1;
+	}
+
+	.vvlink {
+		flex: 1;
+		font-size: 18px;
+		margin: 20px auto auto auto;
+		text-align: center;
+		justify-content: space-around;
+	}
+	.wrapper .title {
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.wrapper .details {
+		font-size: 18px;
+	}
+	.wrapper .fail_link {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 970px) and (min-width: 681px) {
+	.wrapper {
+		padding: 20px;
+	}
+	.heading {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.cname {
+		margin: auto;
+		font-size: 50px;
+		font-weight: 600;
+		flex: 1;
+	}
+
+	.vvlink {
+		flex: 1;
+		margin: auto;
+		text-align: center;
+		font-size: 25px;
+		margin: 20px auto auto auto;
+		justify-content: space-around;
+	}
+	.wrapper .title {
+		font-size: 35px;
+		font-weight: 400;
+	}
+	.wrapper .details {
+		font-size: 20px;
+	}
+	.wrapper .fail_link {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 1280px) and (min-width: 971px) {
+	.heading {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.cname {
+		margin: auto;
+		font-size: 70px;
+		font-weight: 700;
+		flex: 1;
+	}
+
+	.vvlink {
+		flex: 1;
+		font-size: 35px;
+		margin: 20px auto auto auto;
+		text-align: center;
+		justify-content: space-around;
+	}
+}
